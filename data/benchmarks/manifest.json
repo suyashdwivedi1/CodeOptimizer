@@ -1,0 +1,355 @@
+{
+  "dataset_version": "ds-1",
+  "mode": "quick",
+  "programs": [
+    {
+      "id": "arith_loop_01",
+      "family": "arith_loop",
+      "params": {
+        "n": 30000000,
+        "mod": 1000003,
+        "shift": 7
+      },
+      "path": "arith_loop\\arith_loop_01.c"
+    },
+    {
+      "id": "arith_loop_02",
+      "family": "arith_loop",
+      "params": {
+        "n": 20000000,
+        "mod": 97,
+        "shift": 11
+      },
+      "path": "arith_loop\\arith_loop_02.c"
+    },
+    {
+      "id": "arith_loop_03",
+      "family": "arith_loop",
+      "params": {
+        "n": 40000000,
+        "mod": 65521,
+        "shift": 3
+      },
+      "path": "arith_loop\\arith_loop_03.c"
+    },
+    {
+      "id": "array_float_01",
+      "family": "array_float",
+      "params": {
+        "m": 4096,
+        "reps": 40000,
+        "k": "0.01"
+      },
+      "path": "array_float\\array_float_01.c"
+    },
+    {
+      "id": "array_float_02",
+      "family": "array_float",
+      "params": {
+        "m": 1024,
+        "reps": 40000,
+        "k": "0.5"
+      },
+      "path": "array_float\\array_float_02.c"
+    },
+    {
+      "id": "array_float_03",
+      "family": "array_float",
+      "params": {
+        "m": 16384,
+        "reps": 10000,
+        "k": "0.25"
+      },
+      "path": "array_float\\array_float_03.c"
+    },
+    {
+      "id": "array_reduce_01",
+      "family": "array_reduce",
+      "params": {
+        "m": 8192,
+        "reps": 12000,
+        "op": "+"
+      },
+      "path": "array_reduce\\array_reduce_01.c"
+    },
+    {
+      "id": "array_reduce_02",
+      "family": "array_reduce",
+      "params": {
+        "m": 2048,
+        "reps": 50000,
+        "op": "^"
+      },
+      "path": "array_reduce\\array_reduce_02.c"
+    },
+    {
+      "id": "array_reduce_03",
+      "family": "array_reduce",
+      "params": {
+        "m": 32768,
+        "reps": 3000,
+        "op": "-"
+      },
+      "path": "array_reduce\\array_reduce_03.c"
+    },
+    {
+      "id": "matmul_01",
+      "family": "matmul",
+      "params": {
+        "n": 300,
+        "type": "double",
+        "order": "ijk"
+      },
+      "path": "matmul\\matmul_01.c"
+    },
+    {
+      "id": "matmul_02",
+      "family": "matmul",
+      "params": {
+        "n": 256,
+        "type": "int",
+        "order": "ikj"
+      },
+      "path": "matmul\\matmul_02.c"
+    },
+    {
+      "id": "matmul_03",
+      "family": "matmul",
+      "params": {
+        "n": 320,
+        "type": "double",
+        "order": "ikj"
+      },
+      "path": "matmul\\matmul_03.c"
+    },
+    {
+      "id": "searching_01",
+      "family": "searching",
+      "params": {
+        "m": 65536,
+        "q": 750000,
+        "stride": 3
+      },
+      "path": "searching\\searching_01.c"
+    },
+    {
+      "id": "searching_02",
+      "family": "searching",
+      "params": {
+        "m": 4096,
+        "q": 1200000,
+        "stride": 2
+      },
+      "path": "searching\\searching_02.c"
+    },
+    {
+      "id": "searching_03",
+      "family": "searching",
+      "params": {
+        "m": 262144,
+        "q": 500000,
+        "stride": 5
+      },
+      "path": "searching\\searching_03.c"
+    },
+    {
+      "id": "sorting_01",
+      "family": "sorting",
+      "params": {
+        "algo": "insertion",
+        "n": 12000
+      },
+      "path": "sorting\\sorting_01.c"
+    },
+    {
+      "id": "sorting_02",
+      "family": "sorting",
+      "params": {
+        "algo": "qsort",
+        "n": 600000
+      },
+      "path": "sorting\\sorting_02.c"
+    },
+    {
+      "id": "sorting_03",
+      "family": "sorting",
+      "params": {
+        "algo": "insertion",
+        "n": 8000
+      },
+      "path": "sorting\\sorting_03.c"
+    },
+    {
+      "id": "string_proc_01",
+      "family": "string_proc",
+      "params": {
+        "l": 100000,
+        "alpha": 26,
+        "reps": 150
+      },
+      "path": "string_proc\\string_proc_01.c"
+    },
+    {
+      "id": "string_proc_02",
+      "family": "string_proc",
+      "params": {
+        "l": 10000,
+        "alpha": 5,
+        "reps": 1500
+      },
+      "path": "string_proc\\string_proc_02.c"
+    },
+    {
+      "id": "string_proc_03",
+      "family": "string_proc",
+      "params": {
+        "l": 400000,
+        "alpha": 26,
+        "reps": 40
+      },
+      "path": "string_proc\\string_proc_03.c"
+    },
+    {
+      "id": "numeric_01",
+      "family": "numeric",
+      "params": {
+        "kind": "integrate",
+        "n": 15000000
+      },
+      "path": "numeric\\numeric_01.c"
+    },
+    {
+      "id": "numeric_02",
+      "family": "numeric",
+      "params": {
+        "kind": "newton",
+        "n": 6000000
+      },
+      "path": "numeric\\numeric_02.c"
+    },
+    {
+      "id": "numeric_03",
+      "family": "numeric",
+      "params": {
+        "kind": "montecarlo",
+        "n": 25000000
+      },
+      "path": "numeric\\numeric_03.c"
+    },
+    {
+      "id": "branch_heavy_01",
+      "family": "branch_heavy",
+      "params": {
+        "kind": "collatz",
+        "lim": 300000
+      },
+      "path": "branch_heavy\\branch_heavy_01.c"
+    },
+    {
+      "id": "branch_heavy_02",
+      "family": "branch_heavy",
+      "params": {
+        "kind": "fizz",
+        "lim": 20000000
+      },
+      "path": "branch_heavy\\branch_heavy_02.c"
+    },
+    {
+      "id": "branch_heavy_03",
+      "family": "branch_heavy",
+      "params": {
+        "kind": "collatz",
+        "lim": 150000
+      },
+      "path": "branch_heavy\\branch_heavy_03.c"
+    },
+    {
+      "id": "memory_bound_01",
+      "family": "memory_bound",
+      "params": {
+        "m": 524288,
+        "steps": 2000000,
+        "sreps": 4,
+        "stride": 16
+      },
+      "path": "memory_bound\\memory_bound_01.c"
+    },
+    {
+      "id": "memory_bound_02",
+      "family": "memory_bound",
+      "params": {
+        "m": 65536,
+        "steps": 4000000,
+        "sreps": 40,
+        "stride": 8
+      },
+      "path": "memory_bound\\memory_bound_02.c"
+    },
+    {
+      "id": "memory_bound_03",
+      "family": "memory_bound",
+      "params": {
+        "m": 1048576,
+        "steps": 1000000,
+        "sreps": 2,
+        "stride": 32
+      },
+      "path": "memory_bound\\memory_bound_03.c"
+    },
+    {
+      "id": "call_heavy_01",
+      "family": "call_heavy",
+      "params": {
+        "kind": "fib",
+        "n": 36
+      },
+      "path": "call_heavy\\call_heavy_01.c"
+    },
+    {
+      "id": "call_heavy_02",
+      "family": "call_heavy",
+      "params": {
+        "kind": "mod",
+        "n": 30000000,
+        "mod": 1000000007
+      },
+      "path": "call_heavy\\call_heavy_02.c"
+    },
+    {
+      "id": "call_heavy_03",
+      "family": "call_heavy",
+      "params": {
+        "kind": "fib",
+        "n": 34
+      },
+      "path": "call_heavy\\call_heavy_03.c"
+    },
+    {
+      "id": "tiny_kernel_01",
+      "family": "tiny_kernel",
+      "params": {
+        "n": 2000,
+        "k": 3
+      },
+      "path": "tiny_kernel\\tiny_kernel_01.c"
+    },
+    {
+      "id": "tiny_kernel_02",
+      "family": "tiny_kernel",
+      "params": {
+        "n": 500,
+        "k": 5
+      },
+      "path": "tiny_kernel\\tiny_kernel_02.c"
+    },
+    {
+      "id": "tiny_kernel_03",
+      "family": "tiny_kernel",
+      "params": {
+        "n": 8000,
+        "k": 11
+      },
+      "path": "tiny_kernel\\tiny_kernel_03.c"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+node_modules/
+frontend/dist/
+.pytest_cache/
+.mypy_cache/
+*.log
+
+# Generated experiment outputs
+results/experiments/
+
+# Training backups
+artifacts/*before_retraining*

@@ -1,0 +1,13 @@
+{
+  "dataset_version": "ds-1",
+  "programs": 36,
+  "reps": 5,
+  "warmup": 1,
+  "collected_at": "2026-10-29T16:43:07",
+  "seconds": 472.1,
+  "platform": "Windows-11-10.0.26300-SP0",
+  "cpu_count": 4,
+  "unavailable_strategies": {},
+  "n_rows": 468,
+  "n_failures": 3
+}

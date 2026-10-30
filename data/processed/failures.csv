@@ -1,0 +1,4 @@
+program_id,strategy_id,reason
+numeric_02,src-loop-hints,stdout differs from baseline on test input 1
+call_heavy_01,src-loop-hints,Not applicable: No for-loops found in code regions; nothing to transform.
+call_heavy_03,src-loop-hints,Not applicable: No for-loops found in code regions; nothing to transform.
